@@ -21,13 +21,13 @@ To provide a more clear picture, we filtered the dataset by:
 
 By filtering the dataset, we created a more focused sample of the data which allowed us to address the following questions:
   1. **How many Vine reivews and non-Vine reviews were there?**
-    * There were **170** Vine Reivews and **37,840** non-Vine reviews. 
+       * There were **170** Vine Reivews and **37,840** non-Vine reviews. 
   2. **How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?**
-    * Vine members gave **65** out of **170** reviews a 5 star rating.
-    * Non-Vine members gave **20,612** out of **37,840** reivews a 5 star rating.
+        * Vine members gave **65** out of **170** reviews a 5 star rating.
+        * Non-Vine members gave **20,612** out of **37,840** reivews a 5 star rating.
   3. **What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?**
-    * **38.23%** of Vine member reviews were 5 stars.
-    * **54.47%** of non-Vine member reviews were 5 stars.
+        * **38.23%** of Vine member reviews were 5 stars.
+        * **54.47%** of non-Vine member reviews were 5 stars.
 
 ![5_star_review_df](https://user-images.githubusercontent.com/107579508/194135195-5e2dc0a0-e770-4497-a032-a6fcc5335d9c.png)
 
