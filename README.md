@@ -4,15 +4,15 @@ Big Data analysis using `AWS RDS`, `Google Colab Notebook`, `Pyspark`, `Postgres
 ![AmazonVine](https://user-images.githubusercontent.com/107579508/194138999-d60e8b73-d072-4c35-9868-544992a586d4.jpg)
 
 ## Overview
-This project examines Amazon reviews written by members of the paid Amazon Vine program, a service that allows manufacturers and publishers to receive reviews of their products, to determine if ther are any biases between Vine members and Non-Vine member's reviews.
+This project examines Amazon reviews written by members of the paid Amazon Vine program, a service that allows manufacturers and publishers to receive reviews of their products.
 
 Our objective was to determine if there is a bias towards 5 star ratings of products provided to Vine members vs. non-members. For example, if a Vine member is asked to publish a review on Amazon in exchange for a free product, will they be more inclined to provide a 5 star rating?
 
-Our analysis was performed by extrating 50 Amaozn review datasets, transforming them into a DataFrame, and calculating the percentage of 5 star ratings to total ratings. Throughout this analysis we used:
+In total there were 50 datasets to complete this analysis and I chose the "**Pet_Products**" dataset.
+
+Our analysis was performed by extrating the **Pet_Products** Amazon review dataset, transforming it into a DataFrame, and calculating the percentage of 5 star ratings to total ratings. Throughout this analysis we used:
   * `PySpark` to extract the dataset, transform/filter the data, connect to a `AWS RDS` instance and uplaod transformed data into `pgAdmin`.
   * `Google Colaboratory` to import `PySpark` libraries, establish a connection to `Postgres`, and create `SQL` tables to hold the exported results.
-
-In total there were 50 datasets to complete this analysis and I chose the "**Pet_Products**" dataset.
 
 Datasets used for this analysis can be found [here](https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt)
 
