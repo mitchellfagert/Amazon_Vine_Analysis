@@ -1,6 +1,8 @@
 # Amazon_Vine_Analysis
 Big Data analysis using AWS RDS, Google Colab Notebook, Pyspark, Postgres/pgAdmin, and SQL
 
+![AmazonVine](https://user-images.githubusercontent.com/107579508/194138999-d60e8b73-d072-4c35-9868-544992a586d4.jpg)
+
 ## Overview
 This project examines Amazon reviews written by members of the paid Amazon Vine program, a service that allows manufacturers and publishers to receive reviews of their products, to determine if ther are any biases between Vine members and Non-Vine member's reviews.
 
