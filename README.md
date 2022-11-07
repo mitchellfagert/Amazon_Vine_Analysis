@@ -6,7 +6,7 @@ Big Data analysis using `AWS RDS`, `Google Colab Notebook`, `PySpark`, `Postgres
 ## Overview
 This project examines Amazon reviews written by members of the paid Amazon Vine program, a service that allows manufacturers and publishers to receive reviews of their products.
 
-Our objective was to determine if there is a bias towards 5 star ratings of products provided to Vine members vs. non-members. For example, if a Vine member is asked to publish a review on Amazon in exchange for a free product, will they be more inclined to provide a 5 star rating?
+Ourgoal was to determine if there is a bias towards 5 star ratings of products provided to Vine members vs. non-members. For example, if a Vine member is asked to publish a review on Amazon in exchange for a free product, will they be more inclined to provide a 5 star rating?
 
 I was able to use `PySpark` to extract, transform, and load (ETL) the data to a `AWS RDS` I created and connected it to my `PostgreSQL` server to be able to query it and extract my finished tables. Part of the data transformation was made using pandas as well.
 
