@@ -1,14 +1,14 @@
 # Amazon_Vine_Analysis
-Big Data analysis using `AWS RDS`, `Google Colab Notebook`, `PySpark`, `Postgres/pgAdmin`, and `SQL`
+Big Data analysis using `AWS RDS`, 'AWS S3', `Google Colab Notebook`, `PySpark`, `PostgreSQL/pgAdmin`, and `SQL`
 
 ![AmazonVine](https://user-images.githubusercontent.com/107579508/194138999-d60e8b73-d072-4c35-9868-544992a586d4.jpg)
 
 ## Overview
 This project examines Amazon reviews written by members of the paid Amazon Vine program, a service that allows manufacturers and publishers to receive reviews of their products.
 
-Ourgoal was to determine if there is a bias towards 5 star ratings of products provided to Vine members vs. non-members. For example, if a Vine member is asked to publish a review on Amazon in exchange for a free product, will they be more inclined to provide a 5 star rating?
+Our goal was to determine if there is a bias towards 5 star ratings of products provided to Vine members vs. non-members. For example, if a Vine member is asked to publish a review on Amazon in exchange for a free product, will they be more inclined to provide a 5 star rating?
 
-I was able to use `PySpark` to extract, transform, and load (ETL) the data to a `AWS RDS` I created and connected it to my `PostgreSQL` server to be able to query it and extract my finished tables. Part of the data transformation was made using pandas as well.
+I was able to use `PySpark` and `Pandas` to extract, transform, and load (ETL) the data to a `AWS RDS` I created and connected it to my `PostgreSQL` server to be able to query it and extract my finished tables.
 
 The objective of this project was to familiarize myself with `PySpark`. Apache Spark is a unified analytics engine for large-sacale data processing. This means that when working with big data, Spark is one of the best technologies out there because of its in-memory computation instead of disk-based solution. It allows for lazy evaluation and delaying expressions or commands until its needed.
 
