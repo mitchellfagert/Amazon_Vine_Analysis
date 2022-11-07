@@ -8,9 +8,9 @@ This project examines Amazon reviews written by members of the paid Amazon Vine 
 
 Our objective was to determine if there is a bias towards 5 star ratings of products provided to Vine members vs. non-members. For example, if a Vine member is asked to publish a review on Amazon in exchange for a free product, will they be more inclined to provide a 5 star rating?
 
-I was able to use PySpark to extract, transform, and load (ETL) the data to a 'AWS RDS' I created and connected it to my 'PostgreSQL' server to be able to query it and extract my finished tables. Part of the data transformation was made using pandas as well.
+I was able to use `PySpark` to extract, transform, and load (ETL) the data to a `AWS RDS` I created and connected it to my `PostgreSQL` server to be able to query it and extract my finished tables. Part of the data transformation was made using pandas as well.
 
-The objective of this project was to familiarize myself with 'PySpark'. Apache Spark is a unified analytics engine for large-sacale data processing. This means that when working with big data, Spark is one of the best technologies out there because of its in-memory computation instead of disk-based solution. It allows for lazy evaluation and delaying expressions or commands until its needed.
+The objective of this project was to familiarize myself with `PySpark`. Apache Spark is a unified analytics engine for large-sacale data processing. This means that when working with big data, Spark is one of the best technologies out there because of its in-memory computation instead of disk-based solution. It allows for lazy evaluation and delaying expressions or commands until its needed.
 
 In total there were 50 datasets to complete this analysis and I chose the "**Pet_Products**" dataset.
 
